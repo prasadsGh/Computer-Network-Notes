@@ -1,0 +1,26 @@
+Dynamic host configuration protocol -->
+
+suppose we have an internet service provider and 
+he gives us a modem , now this modem has globla ip address and all devices which 
+are connected to it have the same ip address for outside world,
+
+but modem gives each connected devices a local ip address, which is 
+given with the help of DHCP 
+
+
+now when we request something,lets say i requested google.com from my device,
+google server will see the global ip address of modem and when modem get the
+response back from google server then modem will decied who was the one who 
+made request them modem will redirect that response to that device. 
+this is done using NAT (Network Access Translator).
+
+
+now ok, its fine, now response can be received on particular device who 
+made the request, but now how do we know that which application 
+do we need to send the message to 
+now here comes the PORTS in picture. 
+modem decide to which application to send the data using ports 
+
+
+WHATSAPP uses port number 5222 for messaging (which is a standard port for --EXTENSIBLE MESSAGING 
+AND PRESENCE PROTOCOL--)

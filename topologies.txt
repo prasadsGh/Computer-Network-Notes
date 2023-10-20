@@ -1,0 +1,36 @@
+1. LAN - local area network
+        example- office,house,ethernet 
+
+2.MAN - Metropolitan area Network   
+        example- across the city network 
+
+3.WAN- wide area network
+        example- across countries -optical fibre network
+
+
+Internet is collection of all these 
+
+SoNET- synchronous area networking 
+frame relay- way of connecting your local area network to wider 
+area 
+
+
+TOPOLOGIES--->
+1. Bus topology -
+
+    a       b               c
+    |       |               |
+------------------------------------------
+        |       |               |
+        d       e               f
+
+
+2.Ring Topology 
+
+   b---c
+  /     \
+ a       d
+  \     /
+   e---f
+
+3. star topology -

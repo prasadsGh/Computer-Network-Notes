@@ -1,0 +1,5 @@
+modem - used to convert digital signals into analog signals 
+        and vice versa as well 
+
+router- a device that routes the data packets based on their IP address 
+

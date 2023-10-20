@@ -1,0 +1,21 @@
+whenever response is received to the devide then due to PORTS we can decide 
+which application has requested and provide response to that application 
+
+whatsapp uses port number 5222 for instant messaging 
+this port number is standard for extensible messaging and presence protocol 
+
+port number are 16 bits
+so there are 2* (1e16) port numbers are available which are nead 65000 
+
+web pages use HTTP for request and response. 
+for this port number 80 is used. 
+
+mongodb- 27017
+sql - 1433 
+http- 80
+
+
+port numbers from  0 to 1023 are reserved.
+
+1024- 49152 are also reserved but for application like mongodb , mysql
+
