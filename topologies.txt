@@ -34,3 +34,13 @@ TOPOLOGIES--->
    e---f
 
 3. star topology -
+        one to all
+
+
+4. tree topology- 
+        combination of bus and star topology 
+
+5. Mesh Topology 
+        every single computer is connected to every single computer 
+
+

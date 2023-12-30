@@ -1,0 +1,35 @@
+open system interconnection model--> (OSI)
+
+it was build for standard way for communicating how two or 
+more computers communicate (send and receive)
+
+There are seven layers in OSI model-->
+
+1. Application Layer - implemented in application/software which we use
+
+2. Presentation Layer - applicatio layer will give data to presentation layer which is in form of characters,
+                        numbers and all, presentation layer encodes the data into machine readble binary code only 
+                       (from ASCII to EBCDIC), it also provides abstraction 
+
+
+3. Session Layer - now encoded data is sent to the session layer,session layer helps in setting up and managing connection 
+                    and enables sending and receiving of data followed by termination of session 
+
+
+4. Transport layer - data which is received in from above layer is broken down into segments in this layer 
+                    each segment contains the source and destination (ports) and sequence number , flow control->
+                    suppose client has 40 mbps but server has 20 mbps only then there should be sync in between them.
+                    error control with checksum (connection oriented -tcp, connection oriented - UDP)
+
+
+5. Network Layer - transmission of data from one computer to another which is located in another network
+                    function of network layer -logical addressing- it assigns senders and receivers ip address to each data packet 
+                    so that it get received at right destination. load balancing is also done in this layer 
+
+6. Datalink Layer - received the data packets form network layer , physical addressing is done , packets are called as frames 
+                     and transport them 
+
+7. Physical Layer - contain hardware(cable, modem ), convert the segments from datalink layer to the electrical signals or 
+                    optical fibre signals 
+
+

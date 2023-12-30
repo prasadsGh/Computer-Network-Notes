@@ -1,0 +1,16 @@
+switch - 
+
+router -
+
+hub- 
+
+bridges - 
+
+
+Gateway- 
+
+repeater- 
+
+
+Brouter- 
+

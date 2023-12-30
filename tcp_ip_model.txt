@@ -1,0 +1,16 @@
+TCP IP Model- 
+There are 5 layes in tcp ip model -
+
+                       |  where as OSI Model has 
+1. application layer   |    1. application layer 
+2. transport layer     |   *2. presentation layer --> removed in tcp ip , its merged in application layer 
+3. network layer       |   *3. session layer -------> removed in tcp ip , its merged in application layer 
+4. data link layer     |    4. transport layer 
+5. physical layer      |    5. network layer 
+                       |    6. data link layer 
+                       |    7.physical layer 
+
+
+this the actual practically used model, the OSI model 
+more of for understanding purpose 
+

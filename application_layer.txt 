@@ -1,0 +1,45 @@
+Application layer - 
+
+- user interact with this layer - example whatapp, browser etc  on devices 
+
+
+------------Protocols---------------
+
+web protocols - 
+
+a. TCP/IP protocol- 
+        1. HTTP- hypertext transfer protocol ,defines how data is transffered like html file and all 
+        2. DHCP - dynamic host control protocol,allocates ip address (local) to  devices which are
+                  connected to your network.
+        3. FTP - file transfer protocol, how files are transferred 
+        4. SMTP - simple mail transfer protocol- to send the mail 
+        5. POP3 / iMAC - to receive mail 
+        6. SSH - secure shell - if you want to login to terminal of someones computer 
+
+B. TELNET - port 23 ,termical emulation , to connect to host or user over telnet,
+            it enables user to manage the devices remotely 
+
+C. UDP- stateless connection , faster, data may be lost during communication - 
+        example - video calling 
+
+
+
+
+------client server architecture ---------
+ 
+- ping domain --> to see the send and receive of data packets 
+
+- ping time is time required for roundtrip from clint(origin) to server to origin 
+
+- can we reduce the ping time- no because this is the best possible time we are getting because signals
+are travelling with speed of light through cables and satellites etc 
+
+
+-------peer to peer architecture -----------
+
+- no dedicated server 
+- very efficient for scalability 
+- many computers are interconnected with each other 
+- decentralised network 
+- every computer acts as a server as well as computer - example - bittorrent 
+-

@@ -1,0 +1,16 @@
+Hypertext Transfer Protocol- 
+
+its client server protocol which tells how to send (in what format) the data 
+to server and also tells about how to get the response from server 
+
+- http is application layer protocol , get methods, post methods 
+
+- https uses TCP internally - all data is received 
+
+-TCP is transport layer protocol 
+
+- HTTP is stateless protocol 
+
+- stateless means it doesn't remember anything from past event,
+each message is treated as new indivisual event 
+its like a conversation with someone who forget everything after each statement.

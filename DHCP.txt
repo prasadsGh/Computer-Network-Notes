@@ -1,9 +1,8 @@
 Dynamic host configuration protocol -->
 
 suppose we have an internet service provider and 
-he gives us a modem , now this modem has globla ip address and all devices which 
+he gives us a modem , now this modem has globle ip address and all devices which 
 are connected to it have the same ip address for outside world,
-
 but modem gives each connected devices a local ip address, which is 
 given with the help of DHCP 
 

@@ -17,5 +17,14 @@ http- 80
 
 port numbers from  0 to 1023 are reserved.
 
-1024- 49152 are also reserved but for application like mongodb , mysql
+1024- 49152 are also reserved but for application like mongodb , mysql--
+
+
+suppose we made a request from chrome and now port has indicated that chrome made the request and 
+provide reponse to chrome, but it does not know which tab( instance) of chrome has made the request 
+so here comes in picture EPHEMERAL PORTS 
+this ports assign random port numbers to instances of application so that when response is received 
+it get assigned to accurate instance 
+
+
 
